@@ -64,3 +64,19 @@ const formData = reactive({});
     </div>
   </div>
 </template>
+<style scoped>
+form input:focus {
+  border-color: #38bdf8;
+  outline: none;
+}
+form input::placeholder {
+  color: #a0aec0;
+}
+form input {
+  border: 1px solid #ddd;
+}
+
+  .bg-gradient-to-l {
+    background: linear-gradient(to left, #38bdf8, #3b82f6);
+  }
+</style>
